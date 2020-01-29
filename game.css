@@ -1,0 +1,87 @@
+table{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  table td{
+     border:dotted 1px black;
+      height:10%;
+      background:#fff;
+  }
+  
+  .td-class{
+    background:grey;
+  }
+  
+  #tog{
+    cursor:pointer;
+    width:100px;
+    height:20px;
+    background:grey;
+    border:dotted 2px black;
+    text-align:center;
+    color:#FFF;
+  }
+  
+  p{
+    float:left;
+    margin-right:10px;
+    border-radius:80px;
+    width:50px;
+    height:50px;
+    padding:10px;
+    cursor:pointer;
+  }
+  
+  p.blue{
+    background:blue;
+    border:solid 5px grey;
+  }
+  
+  p.blue:hover{
+    border:solid 5px black;
+  }
+  
+  p.yellow{
+    background:yellow;
+    border:solid 5px grey;
+  }
+  
+  p.yellow:hover{
+    border:solid 5px black;
+  }
+  
+  p.green{
+      background:green;
+    border:solid 5px grey;
+  }
+  
+  p.green:hover{
+    border:solid 5px black;
+  }
+  
+  .game {
+    display: inline-block;
+    margin-left: 25%;
+  }
+
+  .uitleg{
+    display: inline-block;
+    margin-left: 15%;
+  }
+
+  .papo{
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  .pipas{
+    margin-top: 5px;
+  }
+
+  .randomName{
+    display: inline-block;
+    margin-left: 10%;
+  }
